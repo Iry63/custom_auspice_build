@@ -1,6 +1,7 @@
 # Markdown
 
 ## Custom build for auspice
+Base build version 2.27.0
 
 ### Features
 
