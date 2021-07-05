@@ -28,7 +28,7 @@ Launch auspice:
 auspice view --datasetDir path/to/data
 ```
 
-And view auspice in the browser at [localhost:4000](localhost:4000)  
+And view auspice in the browser at [localhost:4000](https://localhost:4000)  
 
 ## How to add matrix
 
