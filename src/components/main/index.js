@@ -149,7 +149,7 @@ class Main extends React.Component {
           
           {this.props.panelsToDisplay.includes("tree") ? <Tree width={big.width} height={big.height} key={this.props.treeName} /> : null}
           {this.props.panelsToDisplay.includes("map") ? <Map width={big.width} height={big.height} key={this.props.treeName+"_map"} justGotNewDatasetRenderNewMap={false} legend={this.shouldShowMapLegend()} /> : null}
-          {this.props.metadatamatrice ? <Matrice width={big.width} height={big.height} key={this.props.treeName+"_matrice"}/> : null}
+          {this.props.metadatamatrice ? <Matrice width={chart.width} height={big.height*1.5} key={this.props.treeName+"_matrice"}/> : null}
           {this.props.panelsToDisplay.includes("entropy") ?
             (<Suspense fallback={null}>
               <Entropy width={chart.width} height={chart.height} key={this.props.treeName+"_entropy"}/>
