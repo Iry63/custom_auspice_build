@@ -235,7 +235,7 @@ class Matrice extends React.PureComponent{
 
     td.forEach((n, i) => {
       var treshold_trigger = parseInt(n.innerHTML) <= this.state.matrix_treshold
-      var percent = treshold_trigger ? 40 + ((n.innerHTML/max)*100)*0.5 : 45 + ((n.innerHTML/max)*100)*0.5 
+      var percent = treshold_trigger ? 10 + ((n.innerHTML/max)*100)*0.5 : 45 + ((n.innerHTML/max)*100)*0.5 
       var textColor = treshold_trigger ? '#FFF' : '#000';
       n.style.backgroundColor = 'hsl('+this.state.hsl_color+', 75%, '+ percent+'%)'
       n.style.color = textColor
