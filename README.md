@@ -5,7 +5,8 @@ Base [Auspice](https://github.com/nextstrain/auspice)  version 2.27.0
 
 ### Features
 
-New panels to display a distance matrix that dynamically update with the tree view.  
+New panels to display a distance matrix that dynamically update with the tree view.
+<p align="center"><img src="matrix_panels.png" width="30%"></p>
 
 ## Installation
 
