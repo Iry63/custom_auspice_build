@@ -60,21 +60,7 @@ The templates needed is the following :
 Here a [link](https://www.convertcsv.com/csv-to-html.htm) that could help you get your html table from tsv/csv.
 If you are familiar with python and pandas module you can use this function [Styler.render()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.io.formats.style.Styler.render.html) to get html table from dataframe. This is what [Auract](https://github.com/Iry63/Auract) use .
 
-## Install Error
-#### npm error
-If you can't run 'auspice view' command that mean you got an npm error. If this is your case, first uninstall auspice to be sure by running following command.
-```bash
-npm uninstall -g auspice
-npm uninstall auspice
-```
-Then make sure you are in the auspice folder, and also be sure you have the permission to run the command maybe use sudo. And redo the installation process.
 
-#### can't see custom build
-If you can't see 'custom build by Iry' next the logo but auspice view command work. That mean the src folder have not been changed make sure you have cloned this repository then take the src folder in it and replace it with src folder in auspice folder. Then rerun 'auspice build' command.
-
-```bash
-auspice build
-```
 
 [![License GPL v3](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
