@@ -38,7 +38,9 @@ And view auspice in the browser at [localhost:4000](http://localhost:4000). To b
 **Recommended:**
 To add your matrix you will need a .tsv file that contain the matrice and use [Auract](https://github.com/Iry63/Auract) a tool that i have made to generate auspice and microreact input from tree and metadata. The auspice module of Auract will also add the matrix in the .json file if you give a .tsv file that contain the distance matrix.
 
-If don't want to use Auract (**not  recommended**):
+
+
+**If don't want to use Auract (not  recommended):**
 The matrix might have some display error if using the following methode.
 An other way is to get your matrice in html table and add at the end of the json file your html code. Don't forgot to sort the tsv or table with the tree order for better readability.
 
